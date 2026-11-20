@@ -1,0 +1,249 @@
+[
+  {
+    "name": "lane",
+    "color": "#ffd400",
+    "type": "polyline",
+    "attributes": [
+      {
+        "name": "position",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "L1",
+        "values": [
+          "L1",
+          "R1",
+          "L2",
+          "R2",
+          "other"
+        ]
+      },
+      {
+        "name": "style",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "solid",
+        "values": [
+          "solid",
+          "dashed"
+        ]
+      },
+      {
+        "name": "color",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "white",
+        "values": [
+          "white",
+          "yellow",
+          "other"
+        ]
+      },
+      {
+        "name": "kind",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "single",
+        "values": [
+          "single",
+          "double"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "road_curb",
+    "color": "#ff7f0e",
+    "type": "polyline",
+    "attributes": []
+  },
+  {
+    "name": "crosswalk",
+    "color": "#e377c2",
+    "type": "polygon",
+    "attributes": []
+  },
+  {
+    "name": "drivable",
+    "color": "#2ca02c",
+    "type": "polygon",
+    "attributes": [
+      {
+        "name": "area_type",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "direct",
+        "values": [
+          "direct",
+          "alternative"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "traffic_light",
+    "color": "#d62728",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "name": "color",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "red",
+        "values": [
+          "red",
+          "yellow",
+          "green",
+          "off",
+          "unknown"
+        ]
+      },
+      {
+        "name": "type",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "vehicle",
+        "values": [
+          "vehicle",
+          "pedestrian",
+          "beacon"
+        ]
+      },
+      {
+        "name": "facing",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "front",
+        "values": [
+          "front",
+          "side",
+          "back"
+        ]
+      },
+      {
+        "name": "edge_zone",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "traffic_sign",
+    "color": "#1f77b4",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "name": "group",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "prohibitory",
+        "values": [
+          "prohibitory",
+          "mandatory",
+          "warning",
+          "information",
+          "supplementary",
+          "other"
+        ]
+      },
+      {
+        "name": "facing",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "front",
+        "values": [
+          "front",
+          "side",
+          "back"
+        ]
+      },
+      {
+        "name": "edge_zone",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "camera",
+    "color": "#7f7f7f",
+    "type": "tag",
+    "attributes": [
+      {
+        "name": "value",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "front",
+        "values": [
+          "front",
+          "fisheye_front",
+          "fisheye_rear",
+          "fisheye_left",
+          "fisheye_right"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "timeofday",
+    "color": "#bcbd22",
+    "type": "tag",
+    "attributes": [
+      {
+        "name": "value",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "day",
+        "values": [
+          "day",
+          "dusk",
+          "night"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "weather",
+    "color": "#17becf",
+    "type": "tag",
+    "attributes": [
+      {
+        "name": "value",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "clear",
+        "values": [
+          "clear",
+          "overcast",
+          "rain",
+          "fog",
+          "other"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "source",
+    "color": "#8c564b",
+    "type": "tag",
+    "attributes": [
+      {
+        "name": "value",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "real",
+        "values": [
+          "real",
+          "simulated"
+        ]
+      }
+    ]
+  }
+]

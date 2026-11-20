@@ -1,0 +1,13 @@
+[project]
+name = "k5-day11-road-lab"
+version = "1.0.0"
+description = "AI20K K5 Ngày 11: Road Elements & SVM, checker và công cụ cho guideline Road v1.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest==8.3.4"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

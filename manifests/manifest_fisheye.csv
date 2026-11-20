@@ -1,0 +1,13 @@
+slot,file,camera,tier,focus,status
+B01,02688_FV.png,fisheye_front,core,lane theo cung (R1/L1 nếu thấy) hoặc crosswalk,ung vien - coach xem lai va chot
+B02,03177_FV.png,fisheye_front,core,traffic_light/traffic_sign sat mep + edge_zone,ung vien - coach xem lai va chot
+B03,04267_RV.png,fisheye_rear,core,lane theo cung (duong nhieu lan) + thuoc tinh,ung vien - coach xem lai va chot
+B04,05535_RV.png,fisheye_rear,core,drivable dung o mep than xe + crosswalk,ung vien - coach xem lai va chot
+B05,05780_MVL.png,fisheye_left,core,crosswalk + road_curb,ung vien - coach xem lai va chot
+B06,04068_MVL.png,fisheye_left,core,drivable + lane position=other,ung vien - coach xem lai va chot
+B07,01216_MVR.png,fisheye_right,core,crosswalk + road_curb,ung vien - coach xem lai va chot
+B08,05783_MVR.png,fisheye_right,core,drivable + lane position=other,ung vien - coach xem lai va chot
+B09,02686_FV.png,fisheye_front,extra,den/bien sat mep + lane,ung vien - coach xem lai va chot
+B10,01153_MVL.png,fisheye_left,extra,crosswalk,ung vien - coach xem lai va chot
+B11,07282_RV.png,fisheye_rear,extra,chi lane vach doc; bo vach o do (bay QC1-03),ung vien - coach xem lai va chot
+B12,05885_MVR.png,fisheye_right,extra,drivable + crosswalk,ung vien - coach xem lai va chot
